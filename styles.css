@@ -6,7 +6,7 @@
 
 body{
   background-color: #343434;
-  background: url("https://firebasestorage.googleapis.com/v0/b/quranic-50f73.appspot.com/o/swiss%2Fbg-winter-retreat-2019.jpg?alt=media&token=e6e52065-a8e9-4ace-bb26-df4b7334d6a4");
+  background: url("https://firebasestorage.googleapis.com/v0/b/quranic-50f73.appspot.com/o/swiss%2Fbg-winter-retreat-2019.jpg?alt=media&token=e6e52065-a8e9-4ace-bb26-df4b7334d6a4")no-repeat;
   background-size: cover;
   max-width: 1440px;
   width: 1200px;
@@ -19,7 +19,7 @@ body{
 .main-body{
   width:45%;
   height: 100vh;
-  margin: 40px 0 0 0px;
+  margin: 40px 0 0 20px;
 }
 .main-body h4{
   color: #80C0F2;
@@ -145,6 +145,7 @@ body{
   .main-body{
     width: 90%;
     margin: 0px auto;
+    height: 100vh;
   }
 
   .image-container{
