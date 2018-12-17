@@ -1,0 +1,203 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #343434;
+  background: url("/images/bg-winter-retreat-2019.jpg");
+  background-size: cover;
+  max-width: 1440px;
+  width: 1200px;
+  margin: 0 auto;
+}
+.section{
+  margin: 40px auto;
+}
+/*Main Body */
+.main-body{
+  width:45%;
+  height: 100vh;
+  margin: 40px 0 0 0px;
+}
+.main-body h4{
+  color: #80C0F2;
+  font-weight: 700;
+  letter-spacing: 4px;
+  line-height: 15px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.dot {
+  height: 5px;
+  margin: 0 10px;
+  width: 5px;
+  background-color: #80C0F2;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.main-body h1{
+  font-size: 42px;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: .5px;
+  line-height: 48px;
+}
+
+/* image container */
+.image img{
+  width: 150px;
+  height: 150px;
+
+}
+.image-container{
+  display: flex;
+  margin: 30px auto;
+}
+.quote{
+  flex-grow: 1;
+  margin: 20px 40px;
+  font-size: 14pt;
+  line-height: 22px;
+  font-weight: 300;
+}
+
+.testimonial-quote blockquote {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background: none;
+    font-size: 14px;
+    margin: 0;
+    position: relative;
+    z-index: 600;
+}
+.testimonial-quote blockquote p:first-child:before {
+    content: '\201C';
+    color: #5B5B5B;
+    font-size: 10.5em;
+    font-weight: 700;
+    opacity: .9;
+    position: absolute;
+    top: .2em;
+    left: -.2em;
+    text-shadow: none;
+    z-index: -300;
+}
+
+.bold{
+  font-weight: 700;
+}
+
+/*Sign-Up */
+.sign-up input{
+  border-radius: 25px 0px 0px 25px;
+  -moz-border-radius: 25px 0px 0px 25px;
+  -webkit-border-radius: 25px 0px 0px 25px;
+  border: 0px solid rgba(0, 0, 0, 0);
+  font-size: 14px;
+  padding: 20px 20px;
+  width: 50%;
+}
+
+.btn{
+  border-radius: 0px 25px 25px 0px;
+  -moz-border-radius: 0px 25px 25px 0px;
+    -webkit-border-radius: 0px 25px 25px 0px;
+  border: 0px solid rgba(0, 0, 0, 0);
+  width: 40%;
+  margin-left: -5px;
+  font-size: 14px;
+  padding: 20px 20px;
+  background: #6e00ce; /* Old browsers */
+  background: -moz-linear-gradient(45deg, #6e00ce 0%, #86fffe 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #6e00ce 0%,#86fffe 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #6e00ce 0%,#86fffe 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6e00ce', endColorstr='#86fffe',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.about{
+  margin: 30px auto;
+}
+
+.about h5{
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.about p{
+  margin: 10px 20px;
+  font-weight: 300;
+  line-height: 22pt;
+  font-size: 14px;
+}
+/* BreakPoints */
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 320px) and (max-width : 650px) {
+  body{
+    width: 100%;
+      background: url("/images/bg-mobile.png")no-repeat;
+      background-size: cover;
+  }
+
+  .main-body{
+    width: 90%;
+    margin: 0px auto;
+  }
+
+  .image-container{
+    display: block;
+  }
+  .image{
+    display: flex;
+    justify-content: center;
+  }
+  .main-body h1{
+    font-size: 33px;
+  }
+  .main-body h4{
+    font-size: 12px;
+  }
+  .sign-up input, .sign-up button{
+    text-align: center;
+    margin: 10px 0 0 10px;
+    width: 90%;
+    border-radius: 25px 25px 25px 25px;
+    -moz-border-radius:25px 25px 25px25px;
+      -webkit-border-radius:25px 25px 25px25px;
+    border: 0px solid rgba(0, 0, 0, 0);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*End */
