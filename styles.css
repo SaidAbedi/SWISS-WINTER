@@ -7,10 +7,10 @@
 body{
   background-color: #343434;
   background: url("https://firebasestorage.googleapis.com/v0/b/quranic-50f73.appspot.com/o/swiss%2Fbg-winter-retreat-2019.jpg?alt=media&token=e6e52065-a8e9-4ace-bb26-df4b7334d6a4")no-repeat;
-  background-size: cover;
-  max-width: 1440px;
-  width: 1200px;
-  margin: 0 auto;
+ background-size: cover;
+  background-color: #343434;
+  height: 100vh;
+  background-position: top right;
 }
 .section{
   margin: 40px auto;
