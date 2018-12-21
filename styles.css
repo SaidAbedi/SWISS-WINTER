@@ -57,15 +57,22 @@ body{
 }
 .image-container{
   display: flex;
-  margin: 30px auto;
+  /*  */
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  float:left;
+  shape-outside: circle();
+  margin: 30px 20px;
 }
+
 .quote{
   flex-grow: 1;
-  margin: 20px 40px;
   font-size: 14pt;
   line-height: 22px;
   font-weight: 300;
 }
+
 
 .testimonial-quote blockquote {
     border: 0;
@@ -76,7 +83,9 @@ body{
     margin: 0;
     position: relative;
     z-index: 600;
+    text-align: justify;
 }
+
 .testimonial-quote blockquote p:first-child:before {
     content: '\201C';
     color: #5B5B5B;
@@ -85,14 +94,17 @@ body{
     opacity: .9;
     position: absolute;
     top: .2em;
-    left: -.2em;
+    left: .7em;
     text-shadow: none;
     z-index: -300;
 }
 
-.bold{
-  font-weight: 700;
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: table;
 }
+
 
 /*Sign-Up */
 .sign-up input{
