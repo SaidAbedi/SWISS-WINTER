@@ -83,7 +83,6 @@ body{
     margin: 0;
     position: relative;
     z-index: 600;
-    text-align: justify;
 }
 
 .testimonial-quote blockquote p:first-child:before {
