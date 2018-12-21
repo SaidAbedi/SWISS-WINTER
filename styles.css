@@ -104,6 +104,9 @@ body{
   display: table;
 }
 
+.bold{
+  font-weight: 700;
+}
 
 /*Sign-Up */
 .sign-up input{
