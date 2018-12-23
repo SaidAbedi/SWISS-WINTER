@@ -83,6 +83,7 @@ body{
     margin: 0;
     position: relative;
     z-index: 600;
+    text-align: justify;
 }
 
 .testimonial-quote blockquote p:first-child:before {
@@ -104,9 +105,6 @@ body{
   display: table;
 }
 
-.bold{
-  font-weight: 700;
-}
 
 /*Sign-Up */
 .sign-up input{
@@ -192,34 +190,3 @@ body{
     border: 0px solid rgba(0, 0, 0, 0);
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*End */
